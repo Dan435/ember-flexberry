@@ -60,6 +60,7 @@ yarn install --no-lockfile
 ember install "${ADDON_DIR}"
 
 # Default blueprint not execute when install addon from local folder, run it manual.
+yarn install --no-lockfile
 ember generate ember-flexberry
 bower install
 
